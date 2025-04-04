@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Default font */
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+#header {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+  font-family: 'Georgia', serif; /* A different font for headings */
+  margin-bottom: 20px;
+}
+
+/* Container for content */
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+/* Style for the image */
+img {
+  width: 100%;
+  max-width: 300px; /* Limit the image size */
+  border-radius: 10px; /* Rounded corners */
+  border: 5px solid #ddd; /* Light border around the image */
+  margin-bottom: 15px;
+}
+
+/* Style for the text content */
+.text-content {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 600px; /* Limit the width of the text area */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white; /* White background for the text block */
+  border: 2px solid #ddd; /* Light border around the text block */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Footer Section */
+#footer {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
